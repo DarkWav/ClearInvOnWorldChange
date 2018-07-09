@@ -1,4 +1,4 @@
-#If a player leaves a world, on which worlds should his inventory be cleared?
+#On which worlds should a Players inventory be cleared when he leaves it?
    AffectedWorlds:
 
    - "world"

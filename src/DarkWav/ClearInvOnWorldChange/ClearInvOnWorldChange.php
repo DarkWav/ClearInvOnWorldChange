@@ -22,6 +22,13 @@ class ClearInvOnWorldChange extends PluginBase
     $this->saveDefaultConfig();
     $Config = $this->getConfig();
     $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
-    $this->getServer()->getLogger()->info(TextFormat::GREEN . "ClearInvOnWorldChange enabled!");
+    $this->getServer()->getLogger()->info(TextFormat::GREEN . "[ClearInvOnWorldChange] Successfully enabled");
+    $this->getServer()->getLogger()->info(TextFormat::GREEN . "[ClearInvOnWorldChange] Check config.yml to set worlds");
   }
 }
+//////////////////////////////////////////////////////
+//                                                  //
+//     ClearInvOnWorldChange by DarkWav.            //
+//     Distributed under the GGPL License.          //
+//                                                  //
+//////////////////////////////////////////////////////
