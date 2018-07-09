@@ -1,0 +1,12 @@
+#If a player leaves a world, on which worlds should his inventory be cleared?
+   AffectedWorlds:
+
+   - "world"
+
+#//////////////////////////////////////////////////////
+#//                                                  //
+#//     ClearInvOnWorldChange by DarkWav.            //
+#//     Distributed under the GGPL License.          //
+#//                                                  //
+#//////////////////////////////////////////////////////
+...
