@@ -1,6 +1,5 @@
 # ClearInvOnWorldChange
 
-### Status: Unfinished. Do NOT use!
+##Clear inventory of Players when they leave certain worlds.
 
-Clear inventory of Players when they leave certain worlds.
-Currently under construction.
+### Status: Finished: [Download](https://github.com/DarkWav/ClearInvOnWorldChange/raw/master/ClearInvOnWorldChange_v1.0.0.phar)
