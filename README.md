@@ -4,4 +4,4 @@
 
 ## Authors: [iiFlamiinBlaze](https://github.com/iiFlamiinBlaze) (fixes) [DarkWav](https://github.com/DarkWav) (invention) [DaPigGuy](https://github.com/DaPigGuy) (testing)
 
-### Status: Finished: [Download](https://github.com/DarkWav/ClearInvOnWorldChange/raw/master/ClearInvOnWorldChange_v1.0.0.phar)
+### Status: Finished: [Download](https://github.com/DarkWav/ClearInvOnWorldChange/raw/master/ClearInvOnWorldChange_v1.0.1.phar)
