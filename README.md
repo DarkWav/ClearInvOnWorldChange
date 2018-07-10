@@ -1,4 +1,4 @@
-# ClearInvOnWorldChange [![](https://img.shields.io/github/license/DarkWav/ClearInvOnWorldChange.svg?label=License)](LICENSE)
+# ClearInvOnWorldChange [![](https://img.shields.io/github/license/DarkWav/ClearInvOnWorldChange.svg?label=License)](https://github.com/DarkWav/ClearInvOnWorldChange/blob/master/LICENSE)
 
 ## Clear inventory of Players when they leave certain worlds.
 
