@@ -3,17 +3,13 @@
 namespace DarkWav\ClearInvOnWorldChange;
 
 use pocketmine\plugin\PluginBase;
-use pocketmine\command\ConsoleCommandSender;
-use pocketmine\utils\TextFormat;
 use pocketmine\utils\Config;
 use pocketmine\Player;
 use pocketmine\Plugin;
-use pocketmine\permission\Permission;
 use pocketmine\event\entity\EntityLevelChangeEvent;
 use pocketmine\event\Listener;
 use pocketmine\level\Level;
 use DarkWav\ClearInvOnWorldChange\ClearInvOnWorldChange;
-use pocketmine\inventory\PlayerInventory;
 
 class EventListener implements Listener
 {
@@ -39,14 +35,9 @@ class EventListener implements Listener
         if ($event->getOrigin()->getName() == $worldname)
         {
           $player->getInventory()->clearAll();
+          $player->getArmorInventory()->clearAll();
         }
       }
     }
   }
 }
-//////////////////////////////////////////////////////
-//                                                  //
-//     ClearInvOnWorldChange by DarkWav.            //
-//     Distributed under the GGPL License.          //
-//                                                  //
-//////////////////////////////////////////////////////

@@ -1,6 +1,6 @@
 name: ClearInvOnWorldChange
 main: DarkWav\ClearInvOnWorldChange\ClearInvOnWorldChange
-version: 1.0.0
+version: 1.0.1
 enable: POSTWORLD
-author: DarkWav
-api: [3.0.0,4.0.0]
+authors: ["DarkWav", "BlazeTheDev", "DaPigGuy"]
+api: [3.0.0]

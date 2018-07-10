@@ -6,8 +6,6 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 use pocketmine\utils\TextFormat;
 use pocketmine\Player;
-use pocketmine\Plugin;
-use pocketmine\plugin\PluginLoader;
 use pocketmine\event\Listener;
 use pocketmine\level\Level;
 use DarkWav\ClearInvOnWorldChange\EventListener;
@@ -26,9 +24,3 @@ class ClearInvOnWorldChange extends PluginBase
     $this->getServer()->getLogger()->info(TextFormat::GREEN . "[ClearInvOnWorldChange] Check config.yml to set worlds");
   }
 }
-//////////////////////////////////////////////////////
-//                                                  //
-//     ClearInvOnWorldChange by DarkWav.            //
-//     Distributed under the GGPL License.          //
-//                                                  //
-//////////////////////////////////////////////////////
